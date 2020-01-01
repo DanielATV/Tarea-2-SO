@@ -23,7 +23,7 @@ public class Hebra extends Thread{
 		for(int j=array.length;j>0;j--) {
 			aux=0;
 			for(i=0; i<j;i++) {
-				if(array[i]>array[aux]) {
+				if(array[i]<array[aux]) {
 					aux=i;
 				}
 			}
