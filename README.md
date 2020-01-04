@@ -20,5 +20,7 @@ _Dado que nosotros utilizamos una especie de burble sort (revisamos cual es el m
 
 _En otras palabras, en cada revision para ver cual es en el número menor realizamos n/2 comparaciones, si no tuvieramos las hebras, deberiamos hacer n comparaciones por cada numero, es decir, con las hebras, hacemos (n^2)/2 y si no las tuvieramos hariamos (n^2)._
 
+_Nota: Se aseguran los resultados para valores no superiores a 10⁹.
+
 Buen año <3
 
