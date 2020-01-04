@@ -1,5 +1,5 @@
 # Tarea-2-SO
-## Integrantes: Jorge Díaz 201673559-3 y Daniel Toro 2016735
+## Integrantes: Jorge Díaz 201673559-3 y Daniel Toro 201673595-k
 
 ## Problema 2 🚀
 _Para entregar el arreglo de enteros para probar la tarea, debe pasarlo en un archivo de texto donde el primer numero de dicho archivo sea la cantidad de numeros que componen el arreglo, y en la siguiente linea deben ir los numeros que componen dicho arreglo._ 
