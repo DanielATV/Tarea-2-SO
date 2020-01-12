@@ -2,6 +2,9 @@
 ## Integrantes: Jorge Díaz 201673559-3 y Daniel Toro 201673595-k
 
 ## Problema 1
+La implementacion realiza lo siguiente:
+-Carga el achivo y almacena las funciones en diccionario
+-Busca parentesis en la expresion
 Consideraciones:
 -El nombre del archivo es fijo(funcionex.txt).
 -Las funciones dependen solo de una variable(x).
