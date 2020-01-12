@@ -6,7 +6,8 @@ Consideraciones:
 -El nombre del archivo es fijo(funcionex.txt).
 -Las funciones dependen solo de una variable(x).
 -No hay dos funciones con el mismo nombre.
--Las funciones siempre guardan relacion estre ellas.
+-Las funciones siempre guardan relacion estre ellas.(no son independientes)
+-Los nombres de ls funciones son de solo 1 caracter.
 
 ## Problema 2 🚀
 _Para entregar el arreglo de enteros para probar la tarea, debe pasarlo en un archivo de texto donde el primer numero de dicho archivo sea la cantidad de numeros que componen el arreglo, y en la siguiente linea deben ir los numeros que componen dicho arreglo._ 
