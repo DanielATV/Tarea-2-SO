@@ -7,9 +7,9 @@ La implementacion realiza lo siguiente:
 -Busca parentesis en la expresion
 Consideraciones:
 -El nombre del archivo es fijo(funcionex.txt).
+-No hay espacios al momento de definir las funciones.
 -Las funciones dependen solo de una variable(x).
 -No hay dos funciones con el mismo nombre.
--Las funciones siempre guardan relacion estre ellas.(no son independientes)
 -Los nombres de ls funciones son de solo 1 caracter.
 
 ## Problema 2 🚀

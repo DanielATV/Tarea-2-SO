@@ -6,6 +6,23 @@ import java.util.Dictionary;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
+class MyThread extends Thread {
+	//atributos
+	private Thread t;
+	private String threadName;
+	private String funEval;
+
+	//constructor
+	MyThread( String name, String funcion) {
+		threadName = name;
+		funEval = funcion;
+		System.out.println("Hola soy " +  threadName );
+	 }
+    
+    public void run(){
+		System.out.println("Debo evaluar " +  funEval );
+    }
+  }
 
 class Main{ 
 	// int groupCount = matcher.groupCount();
@@ -26,18 +43,23 @@ class Main{
 				Dictionary funDic = new Hashtable();
 				funDic.put(partes[0], partes[1]);
 				// Busca si hay parentesis
-				Matcher m = parentesisPat.matcher(data);
-				if (m.find()) {
-					System.out.println(m.group(0));
-				}
+				//Matcher m = parentesisPat.matcher(partes[1]);
+				//if (m.find()) {
+					//System.out.println(m.group(1));
+				//}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		// Input de usario, estatico de momento
+		//Scanner readerObj = new Scanner(System.in);
+   		//System.out.println("Ingrese la funcion");
+		//String userName = readerObj.nextLine();
+		
+		String funNom = "f(x)";
+		String paramFun = "1";
 
-		Scanner readerObj = new Scanner(System.in);
-   		System.out.println("Ingrese la funcion");
-    	String userName = readerObj.nextLine();  
+
 	
 	} 
 } 
