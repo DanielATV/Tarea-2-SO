@@ -28,9 +28,6 @@ class Main{
 		// Defincion de variables
 		int numFun;
 		int i = 0;
-		String inputUser;
-		String inputFun;
-		
 		HashMap<String, String> funDic = new HashMap<String, String>();
 
 		// Patrones para reconocer en strings
@@ -39,10 +36,8 @@ class Main{
 
 		try {
 			// Manejo del archivo
-			Scanner readerObj = new Scanner(System.in);
-			inputFun = readerObj.nextLine();
 
-			File fileObj = new File(inputFun);
+			File fileObj = new File("funciones.txt");
 			Scanner scanerObj = new Scanner(fileObj);
 			numFun = Integer.valueOf(scanerObj.nextLine());
 			while(scanerObj.hasNextLine()){
@@ -60,14 +55,14 @@ class Main{
 				i++;
 			}
 
-			// Input de usario
+			// Input de usario, estatico de momento
 
-		
-			System.out.println("Ingrese la funcion");
-			inputUser = readerObj.nextLine();
+			//Scanner readerObj = new Scanner(System.in);
+			//System.out.println("Ingrese la funcion");
+			//String userName = readerObj.nextLine();
 			
-			//String funNom = "f(x)";
-			//String paramFun = "1";
+			String funNom = "f(x)";
+			String paramFun = "1";
 
 			arrayThread[0].start();
 			arrayThread[1].start();
