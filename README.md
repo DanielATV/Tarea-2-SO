@@ -2,6 +2,8 @@
 ## Integrantes: Jorge Díaz 201673559-3 y Daniel Toro 201673595-k
 
 ## Problema 1
+Uso:
+Compilar con make y ejecutar con make run
 
 Lo que esta implementado hasta el momento incluye:
 -Lectura del archivo de entreda.
@@ -15,7 +17,7 @@ Cosas que faltan:
 -Reemplazar el valor de x en las operaciones y calcular el resultado.
 
 Consideraciones:
--El nombre del archivo es fijo(funcionex.txt).
+-El nombre del archivo es fijo(funciones.txt).
 -No hay espacios al momento de definir las funciones.
 -Las funciones dependen solo de una variable(x).
 -No hay dos funciones con el mismo nombre.
